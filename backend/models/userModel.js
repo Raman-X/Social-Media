@@ -24,7 +24,6 @@ const schema = new mongoose.Schema(
     },
     age: {
       type: Number,
-      required: true,
     },
   },
   { timestamps: true },
